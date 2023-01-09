@@ -1,0 +1,130 @@
+2023-01-08 11:07:15,412 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 11.0.17 on DESKTOP-IOIOK45 with PID 13080 (D:\searchengine (2)\target\classes started by Oleg_Pr in D:\searchengine (2))
+2023-01-08 11:07:15,416 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2023-01-08 11:07:15,466 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-08 11:07:15,467 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-08 11:07:16,519 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-08 11:07:16,589 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 62 ms. Found 5 JPA repository interfaces.
+2023-01-08 11:07:17,087 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-01-08 11:07:17,096 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-08 11:07:17,096 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-01-08 11:07:17,097 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2023-01-08 11:07:17,172 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-01-08 11:07:17,172 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1704 ms
+2023-01-08 11:07:17,332 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-08 11:07:17,381 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.32.Final
+2023-01-08 11:07:17,504 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-08 11:07:17,590 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-01-08 11:07:17,800 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-01-08 11:07:17,814 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-01-08 11:07:18,356 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-08 11:07:18,362 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-08 11:07:18,910 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-08 11:07:19,066 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page template: index
+2023-01-08 11:07:19,230 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-01-08 11:07:19,250 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-01-08 11:07:19,269 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-08 11:07:19,282 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 4.384 seconds (JVM running for 7.702)
+2023-01-08 11:07:43,017 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-08 11:07:43,018 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-01-08 11:07:43,020 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2023-01-08 11:07:43,603 INFO searchengine.services.impl.StatisticServiceImpl [http-nio-8080-exec-7] Получение статистики
+2023-01-08 11:07:45,897 INFO searchengine.services.impl.StatisticServiceImpl [http-nio-8080-exec-9] Получение статистики
+2023-01-08 11:07:50,095 INFO searchengine.services.impl.IndexingServiceImpl [http-nio-8080-exec-6] Попытка запуска индексации всех сайтов
+2023-01-08 11:07:50,096 WARN searchengine.services.impl.IndexingServiceImpl [http-nio-8080-exec-6] Индексация всех сайтов не запущена, т.к. процесс индексации был запущен ранее.
+2023-01-08 11:07:54,666 INFO searchengine.services.impl.IndexingServiceImpl [http-nio-8080-exec-8] Попытка запуска индексации всех сайтов
+2023-01-08 11:07:54,667 WARN searchengine.services.impl.IndexingServiceImpl [http-nio-8080-exec-8] Индексация всех сайтов не запущена, т.к. процесс индексации был запущен ранее.
+2023-01-08 11:08:54,498 INFO searchengine.services.impl.IndexingServiceImpl [http-nio-8080-exec-7] Попытка запуска индексации всех сайтов
+2023-01-08 11:08:54,498 WARN searchengine.services.impl.IndexingServiceImpl [http-nio-8080-exec-7] Индексация всех сайтов не запущена, т.к. процесс индексации был запущен ранее.
+2023-01-08 11:12:16,861 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-08 11:12:16,864 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-01-08 11:12:16,870 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-01-08 11:12:23,823 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Application using Java 11.0.17 on DESKTOP-IOIOK45 with PID 10176 (D:\searchengine (2)\target\classes started by Oleg_Pr in D:\searchengine (2))
+2023-01-08 11:12:23,824 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2023-01-08 11:12:23,874 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-01-08 11:12:23,874 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-01-08 11:12:24,465 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-08 11:12:24,527 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 55 ms. Found 5 JPA repository interfaces.
+2023-01-08 11:12:25,036 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-01-08 11:12:25,044 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-01-08 11:12:25,045 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2023-01-08 11:12:25,045 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.54]
+2023-01-08 11:12:25,113 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-01-08 11:12:25,114 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1238 ms
+2023-01-08 11:12:25,261 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-08 11:12:25,298 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.32.Final
+2023-01-08 11:12:25,382 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-01-08 11:12:25,467 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-01-08 11:12:25,573 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-01-08 11:12:25,598 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-01-08 11:12:26,069 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-08 11:12:26,077 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-08 11:12:26,545 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-08 11:12:26,696 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page template: index
+2023-01-08 11:12:26,842 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-01-08 11:12:26,859 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2023-01-08 11:12:26,874 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2023-01-08 11:12:26,884 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Application in 3.615 seconds (JVM running for 5.002)
+2023-01-08 11:12:52,051 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-08 11:12:52,054 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-01-08 11:12:52,055 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-01-08 11:12:52,574 INFO searchengine.services.impl.StatisticServiceImpl [http-nio-8080-exec-7] Получение статистики
+2023-01-08 11:12:54,928 INFO searchengine.services.impl.IndexingServiceImpl [http-nio-8080-exec-6] Попытка запуска индексации всех сайтов
+2023-01-08 11:12:54,930 INFO searchengine.services.impl.IndexingServiceImpl [http-nio-8080-exec-6] Индексация всех сайтов запущена
+2023-01-08 11:13:06,717 ERROR searchengine.Index [http-nio-8080-exec-3] Pool did not terminate
+2023-01-08 11:13:06,738 INFO searchengine.services.impl.IndexingServiceImpl [http-nio-8080-exec-3] Попытка остановки индексации
+2023-01-08 11:13:06,739 INFO searchengine.services.impl.IndexingServiceImpl [http-nio-8080-exec-3] Индексация остановлена
+2023-01-08 11:13:55,816 INFO searchengine.services.impl.StatisticServiceImpl [http-nio-8080-exec-7] Получение статистики
+2023-01-08 11:13:56,724 INFO searchengine.services.impl.StatisticServiceImpl [http-nio-8080-exec-2] Получение статистики
+2023-01-08 11:13:57,486 INFO searchengine.services.impl.StatisticServiceImpl [http-nio-8080-exec-5] Получение статистики
+2023-01-08 11:13:58,126 INFO searchengine.services.impl.StatisticServiceImpl [http-nio-8080-exec-9] Получение статистики
+2023-01-08 11:13:58,657 INFO searchengine.services.impl.StatisticServiceImpl [http-nio-8080-exec-3] Получение статистики
+2023-01-08 11:13:59,033 INFO searchengine.services.impl.StatisticServiceImpl [http-nio-8080-exec-2] Получение статистики
+2023-01-08 11:13:59,300 INFO searchengine.services.impl.StatisticServiceImpl [http-nio-8080-exec-3] Получение статистики
+2023-01-08 11:13:59,548 INFO searchengine.services.impl.StatisticServiceImpl [http-nio-8080-exec-6] Получение статистики
+2023-01-08 11:13:59,854 INFO searchengine.services.impl.StatisticServiceImpl [http-nio-8080-exec-7] Получение статистики
+2023-01-08 11:14:00,507 INFO searchengine.services.impl.StatisticServiceImpl [http-nio-8080-exec-1] Получение статистики
+2023-01-08 11:14:01,267 INFO searchengine.services.impl.StatisticServiceImpl [http-nio-8080-exec-10] Получение статистики
+2023-01-08 11:14:01,808 INFO searchengine.services.impl.StatisticServiceImpl [http-nio-8080-exec-8] Получение статистики
+2023-01-08 11:14:02,351 INFO searchengine.services.impl.StatisticServiceImpl [http-nio-8080-exec-9] Получение статистики
+2023-01-08 11:14:02,811 INFO searchengine.services.impl.StatisticServiceImpl [http-nio-8080-exec-8] Получение статистики
+2023-01-08 11:14:03,166 INFO searchengine.services.impl.StatisticServiceImpl [http-nio-8080-exec-4] Получение статистики
+2023-01-08 11:14:03,851 INFO searchengine.services.impl.StatisticServiceImpl [http-nio-8080-exec-6] Получение статистики
+2023-01-08 11:14:04,516 INFO searchengine.services.impl.StatisticServiceImpl [http-nio-8080-exec-7] Получение статистики
+2023-01-08 11:14:05,213 INFO searchengine.services.impl.StatisticServiceImpl [http-nio-8080-exec-10] Получение статистики
+2023-01-08 11:14:06,120 INFO searchengine.services.impl.StatisticServiceImpl [http-nio-8080-exec-3] Получение статистики
+2023-01-08 11:14:06,867 INFO searchengine.services.impl.StatisticServiceImpl [http-nio-8080-exec-9] Получение статистики
+2023-01-08 11:14:07,533 INFO searchengine.services.impl.StatisticServiceImpl [http-nio-8080-exec-3] Получение статистики
+2023-01-08 11:14:08,188 INFO searchengine.services.impl.StatisticServiceImpl [http-nio-8080-exec-10] Получение статистики
+2023-01-08 11:14:08,788 INFO searchengine.services.impl.StatisticServiceImpl [http-nio-8080-exec-7] Получение статистики
+2023-01-08 11:14:09,229 INFO searchengine.services.impl.StatisticServiceImpl [http-nio-8080-exec-2] Получение статистики
+2023-01-08 11:14:09,518 INFO searchengine.services.impl.StatisticServiceImpl [http-nio-8080-exec-4] Получение статистики
+2023-01-08 11:14:09,780 INFO searchengine.services.impl.StatisticServiceImpl [http-nio-8080-exec-2] Получение статистики
+2023-01-08 11:14:32,898 INFO searchengine.services.impl.StatisticServiceImpl [http-nio-8080-exec-4] Получение статистики
+2023-01-08 11:14:33,476 INFO searchengine.services.impl.StatisticServiceImpl [http-nio-8080-exec-2] Получение статистики
+2023-01-08 11:14:34,169 INFO searchengine.services.impl.StatisticServiceImpl [http-nio-8080-exec-7] Получение статистики
+2023-01-08 11:14:51,593 INFO searchengine.services.impl.IndexingServiceImpl [http-nio-8080-exec-4] Попытка запуска индексации всех сайтов
+2023-01-08 11:14:51,596 INFO searchengine.services.impl.IndexingServiceImpl [http-nio-8080-exec-4] Индексация всех сайтов запущена
+2023-01-08 11:25:34,024 INFO searchengine.services.impl.StatisticServiceImpl [http-nio-8080-exec-4] Получение статистики
+2023-01-08 11:25:35,800 INFO searchengine.services.impl.StatisticServiceImpl [http-nio-8080-exec-6] Получение статистики
+2023-01-08 11:25:36,533 INFO searchengine.services.impl.StatisticServiceImpl [http-nio-8080-exec-1] Получение статистики
+2023-01-08 11:25:37,127 INFO searchengine.services.impl.StatisticServiceImpl [http-nio-8080-exec-6] Получение статистики
+2023-01-08 11:25:37,630 INFO searchengine.services.impl.StatisticServiceImpl [http-nio-8080-exec-3] Получение статистики
+2023-01-08 11:25:37,883 INFO searchengine.services.impl.StatisticServiceImpl [http-nio-8080-exec-5] Получение статистики
+2023-01-08 11:25:38,075 INFO searchengine.services.impl.StatisticServiceImpl [http-nio-8080-exec-10] Получение статистики
+2023-01-08 11:25:38,244 INFO searchengine.services.impl.StatisticServiceImpl [http-nio-8080-exec-2] Получение статистики
+2023-01-08 11:25:38,436 INFO searchengine.services.impl.StatisticServiceImpl [http-nio-8080-exec-1] Получение статистики
+2023-01-08 11:25:38,606 INFO searchengine.services.impl.StatisticServiceImpl [http-nio-8080-exec-7] Получение статистики
+2023-01-08 11:25:43,199 INFO searchengine.services.impl.StatisticServiceImpl [http-nio-8080-exec-1] Получение статистики
+2023-01-08 11:25:43,671 INFO searchengine.services.impl.StatisticServiceImpl [http-nio-8080-exec-9] Получение статистики
+2023-01-08 11:25:43,880 INFO searchengine.services.impl.StatisticServiceImpl [http-nio-8080-exec-3] Получение статистики
+2023-01-08 11:25:44,114 INFO searchengine.services.impl.StatisticServiceImpl [http-nio-8080-exec-5] Получение статистики
+2023-01-08 11:25:44,401 INFO searchengine.services.impl.StatisticServiceImpl [http-nio-8080-exec-1] Получение статистики
+2023-01-08 11:26:54,664 INFO searchengine.services.impl.SearchServiceImpl [http-nio-8080-exec-3] Запрос на поиск строки- "нужно"
+2023-01-08 11:26:54,814 INFO searchengine.services.impl.SearchServiceImpl [http-nio-8080-exec-3] Запрос на поиск строки обработан, результат получен.
+2023-01-08 11:27:01,215 INFO searchengine.services.impl.SearchServiceImpl [http-nio-8080-exec-10] Запрос на поиск строки- "нужно"
+2023-01-08 11:27:01,261 INFO searchengine.services.impl.SearchServiceImpl [http-nio-8080-exec-10] Запрос на поиск строки обработан, результат получен.
+2023-01-08 11:27:05,490 INFO searchengine.services.impl.SearchServiceImpl [http-nio-8080-exec-6] Запрос на поиск строки- "нужно"
+2023-01-08 11:27:05,665 INFO searchengine.services.impl.SearchServiceImpl [http-nio-8080-exec-6] Запрос на поиск строки обработан, результат получен.
+2023-01-08 11:31:26,927 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-08 11:31:26,931 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-01-08 11:31:26,939 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
